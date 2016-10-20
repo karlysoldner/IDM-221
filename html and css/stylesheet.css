@@ -3,10 +3,18 @@ body {
 }
 
 h1 {
-    color: #5B85AA;
+    color: #414770;
     margin-left: 10px;
 }
 h2 {
     color: #F29335;
     margin-left: 10px;
+}
+p {
+    color: #5B85AA;
+    margin-left: 10px;
+}
+ol {
+	color: #F2BC35;
+	margin-left: 20px;
 }
