@@ -11,16 +11,19 @@ h1 {
 	font-family: Raleway;
     color: #414770;
     margin-left: 10px;
+    line-height: 40px;
 }
 h2 {
 	font-family: Raleway;
     color: #F29335;
     margin-left: 10px;
+    line-height:40px;
 }
 p {
 	font-family: Lora;
     color: #5B85AA;
     margin-left: 10px;
+    line-height: 25px;
 }
 ol {
 	color: #F2BC35;
