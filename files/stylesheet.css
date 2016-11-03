@@ -4,28 +4,37 @@
 	src: url('https://fonts.googleapis.com/css?family=Lora|Raleway')
 	}
 body {
-    background-color: #171123;
+    background-color: #453F3C;
 }
 
 h1 {
 	font-family: Raleway;
-    color: #414770;
+    color: #C1EDCC;
     margin-left: 10px;
     line-height: 40px;
 }
 h2 {
 	font-family: Raleway;
-    color: #F29335;
+    color: #B0C0BC;
     margin-left: 10px;
     line-height:40px;
 }
 p {
-	font-family: Lora;
-    color: #5B85AA;
+	font-family: Raleway;
+    color: #A7A7A9;
     margin-left: 10px;
     line-height: 25px;
 }
 ol {
-	color: #F2BC35;
+	color: #F3C677;
 	margin-left: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+li {
+    display: inline;
 }
