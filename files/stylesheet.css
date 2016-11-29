@@ -10,14 +10,15 @@ body {
 h1 {
 	font-family: Raleway;
     color: #C1EDCC;
-    margin-left: 10px;
+    margin-left: 30px;
     line-height: 40px;
 }
 h2 {
 	font-family: Raleway;
     color: #B0C0BC;
-   /* margin-left: 10px;
-    line-height:40px; */
+    margin-left: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 p {
 	font-family: Raleway;
@@ -28,6 +29,9 @@ p {
 ol {
 	color: #D8D8D8;
 	margin-left: 20px;
+    /*margin-top: 40px;
+    margin-bottom: 80px;*/
+    padding: 10px;
     font-family: Raleway;
 }
 ul {
@@ -53,7 +57,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: white;
+    background-color: #C1EDCC;
 }
 
 li a.active {
@@ -64,7 +68,7 @@ li a.active {
 .wrapper {
   margin: 0 auto;
   max-width: 56.25rem; /* 900px */
-  padding: 2rem;
+  padding-left : 2rem;
 }
 
 .float_basics main {
@@ -94,16 +98,24 @@ li a.active {
 }
 
 .float_2col_fixed main {
-  padding-right: 10px;
-  width: 368px; 
+  padding-right: 20px;
+  width: 350px; 
 }
 
 .float_2col_fixed aside {
-  padding-left: 10px;
-  width: 368px; 
+  padding-left: 20px;
+  width: 350px; 
 }
 
 .float_2col_fixed footer {
   border-top: 2px solid rgb(238, 54, 110); /* pink */
   clear: both;
+}
+
+p.ex1 {
+    padding-top: 55px;
+}
+
+p.ex2 {
+   margin-left: 0px
 }
