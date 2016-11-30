@@ -17,9 +17,14 @@ h2 {
     font-family: Raleway;
     color: #B0C0BC;
     margin-left: 30px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
+h3 { font-family: Raleway;
+    color: #D8D8D8;
+    margin-left: 30px;
+  }
+
 p {
     font-family: Raleway;
     color: #A7A7A9;
@@ -41,10 +46,11 @@ ul {
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
-}
+}s
 
 li {
     float: left;
+    display:inline;
 }
 
 li a {
