@@ -41,26 +41,32 @@ ul.notbulletlist {
    background-color: #f3f3f3;
 }
 
+
 li.notbullet {
-   float: left;
-   font-size: 20px;
-   line-height: 30px;
    display: inline;
    color: #666;
    text-align: center;
-   text-decoration: none;
-     padding: 14px 10px;
+   padding: 14px 16px;
    font-family: Raleway;
+   float: left;
+   display:inline;
+   font-size: 20px;
 }
 
 li.notbullet a:hover:not(.active) {
    background-color: #C1EDCC;
-     padding: 14px 10px;
+   padding: 14px 0px;
+}
+
+li.notbullet a{
+   text-decoration: none;
 }
 
 li.bullet {
-    font-family: Raleway;
-    margin-left: 20px;
+   font-family: Raleway;
+   color: #A7A7A9;
+   margin-left: 30px;
+   line-height: 25px;
 }
 
 ol {
@@ -72,31 +78,10 @@ ol {
     font-family: Raleway;
 }
 
-li {
-    float: left;
-    display:inline;
-    font-size: 20px;
-}
-
-li a {
-    display: inline;
-    color: #666;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
-    font-family: Raleway;
-}
-
-li a:hover:not(.active) {
-    background-color: #C1EDCC;
-}
-
-
-
 .active {
     color: white;
     background-color: #C1EDCC;
-      padding: 14px 10px;
+      padding: 14px 16px;
 }
 
 .wrapper {
