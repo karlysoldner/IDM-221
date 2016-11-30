@@ -17,8 +17,8 @@ h2 {
     font-family: Raleway;
     color: #B0C0BC;
     margin-left: 30px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 h3 { font-family: Raleway;
     color: #D8D8D8;
@@ -31,6 +31,7 @@ p {
     margin-left: 30px;
     line-height: 25px;
 }
+
 ol {
     color: #D8D8D8;
     margin-left: 30px;
@@ -46,15 +47,16 @@ ul {
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
-}s
+}
 
 li {
     float: left;
     display:inline;
+    font-size: 20px;
 }
 
 li a {
-    display: block;
+    display: inline;
     color: #666;
     text-align: center;
     padding: 14px 16px;
@@ -66,9 +68,9 @@ li a:hover:not(.active) {
     background-color: #C1EDCC;
 }
 
-li a.active {
+.active {
     color: white;
-    background-color: #4CAF50;
+    background-color: #C1EDCC;
 }
 
 .wrapper {
@@ -105,17 +107,12 @@ li a.active {
 
 .float_2col_fixed main {
   padding-right: 20px;
-  width: 350px; 
+  width: 400px; 
 }
 
 .float_2col_fixed aside {
   padding-left: 20px;
-  width: 350px; 
-}
-
-.float_2col_fixed footer {
-  border-top: 2px solid rgb(238, 54, 110); /* pink */
-  clear: both;
+  width: 400px; 
 }
 
 p.ex1 {
