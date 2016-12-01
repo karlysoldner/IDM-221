@@ -2,9 +2,7 @@
     font-family: 'Raleway', sans-serif;
     src: url('https://fonts.googleapis.com/css?family=Raleway')
     }
-/* Social Buttons */
-@import url(http://weloveiconfonts.com/api/?family=brandico);
-/* brandico */
+
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
 }
@@ -29,25 +27,20 @@ ul.social-buttons li a {
   line-height: 40px;
   color: white;
 }
-
-ul.social-buttons li a.brandico-twitter-bird {
-  background-color: #4099FF;
+ul.social-buttons li a.brandico-facebook {
+  background-color: #8AD770;
 }
 
-ul.social-buttons li a.brandico-facebook {
-  background-color: #3B5998;
+ul.social-buttons li a.brandico-twitter-bird {
+  background-color: #71D78A;
 }
 
 ul.social-buttons li a.brandico-instagram {
-  background-color: #3f729b;
-}
-
-ul.social-buttons li a.brandico-vimeo {
-  background-color: #4EBBFF;
+  background-color: #70D7BD;
 }
 
 ul.social-buttons li a.brandico-linkedin {
-  background-color: #0e76a8;
+  background-color: #70BDD6;
 }
 
 /*Demo 1*/
@@ -74,14 +67,14 @@ h1 {
 }
 h2 {
     font-family: Raleway;
-    color: #a2b5b0;
+    color: #8AD770;
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 20px;
     opacity: 1;
 }
 h3 { font-family: Raleway;
-    color: #453F3C;
+    color: #70D7BD;
     margin-left: 30px;
     opacity: 1;
   }
@@ -100,7 +93,7 @@ ul.notbulletlist {
    padding: 0;
    overflow: auto;
    border: 1px solid #e7e7e7;
-   background-color: #f3f3f3;
+   background: rgba(255, 255, 255, 0.8);;
 }
 
 
@@ -159,13 +152,13 @@ div.transbox {
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid white;
-  background: rgba(255, 255, 255, 0.8); /*  white background with 0% opacity */
+  background: rgba(255, 255, 255, 0.8); /*  white background with 80% opacity */
   height: auto;
 }
 
 .active {
     color: white;
-    background-color: #C1EDCC;
+    background-color: #70D7BD;
       padding: 14px 0px;
 }
 
