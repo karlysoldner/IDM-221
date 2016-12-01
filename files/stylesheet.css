@@ -96,17 +96,14 @@ ol {
     font-family: Raleway;
 }
 
-
-/* IM EXPERIMENTING */
 div.transbox {
+  overflow: auto;
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid white;
-  background: rgba(255, 255, 255, 0.8) /*  white background with 0% opacity */
-
+  background: rgba(255, 255, 255, 0.8); /*  white background with 0% opacity */
+  height: auto;
 }
-/* IM EXPERIMENTING */
-
 
 .active {
     color: white;
