@@ -115,7 +115,11 @@ a:visited {
   text-decoration: none; 
   color: #605854;
 }
-
+ a.active:visited {
+  color: white;
+    background-color: #C1EDCC;
+      padding: 14px 0px;
+ }
 
 .wrapper {
   margin: 0 auto;
