@@ -70,7 +70,6 @@ li.title {
    text-align: center;
    padding: 14px 16px;
    font-family: Raleway;
-  line-height: : 30px;
   font-size: 40px;
    float: left;
    display:inline;
@@ -107,13 +106,6 @@ div.transbox {
 
 }
 /* IM EXPERIMENTING */
-
-a:visited (.active){ 
-  text-decoration: none; 
-      color: white;
-    background-color: #C1EDCC;
-      padding: 14px 0px;
-}
 
 
 .active {
